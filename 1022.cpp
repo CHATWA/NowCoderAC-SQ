@@ -11,3 +11,16 @@
     输出描述:
     输出一个整数
 */
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int num;
+    cin >> num;
+    cout << num / 10 % 10 << endl;
+    system("pause");
+    return 0;
+}
